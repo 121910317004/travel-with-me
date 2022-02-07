@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/6feef383ca.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel with me</title>
+</head>
+<body>
+    <section class="showcase">
+        <header >
+            <h2 class="logo"></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>A Tour</h2>
+            <h3>Awaiting for you ! ! !</h3>
+            <p>We take you to all places you want to go,we never stop and we make yo speechless and return you as a storyteller.
+            If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and as widely as possible.
+            Sleep on floors if you have to. Find out how other people live and eat and cook. Learn from them – wherever you go.
+            </p>
+            <a href="#">Dive In</a>
+        </div>
+        
+        <div class="social">
+            
+            <ul>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fas fa-address-card"></i></a></li>
+                <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+        </div>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#"><i class="fas fa-house-user"></i>Home</a></li>
+            <li><a href="#"><i class="fas fa-hotel"></i>Hotels</a></li>
+            <li><a href="#"><i class="fas fa-search-location"></i>Locations</a></li>
+            <li><a href="#"><i class="fas fa-skiing-nordic"></i>Activities</a></li>
+            <li><a href="#"><i class="fas fa-phone-alt"></i>Contact us</a></li>
+            <li><a href="#"><i class="far fa-address-card"></i>about us</a></li>
+            <li><a href="#"><i class="far fa-comments"></i>Feedback</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
